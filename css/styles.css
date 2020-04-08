@@ -1,0 +1,76 @@
+.navbar-brand img{max-height: 40px; border-radius: 30%;}
+
+header .row{
+	min-height: 70vh;
+	background-image: url(../img/vue.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+}
+
+header .colongauche{
+	background-color: rgba(0,0,0,0.5);
+	min-height: 70vh;
+}
+header .guido{color: white; font-family: 'Raleway', sans-serif; font-weight: bold;}
+header .slogan{
+	color: white; font-family: 'Dancing Script', cursive;
+	display: flex;
+	min-height: 70vh;
+	align-items:flex-end;
+	justify-content: flex-end;
+	margin-bottom: 50px;
+}
+@media (max-width: 768px) { 
+header .slogan{
+	display: none;
+ }
+}
+#description .media span{
+	color: #d7b841;
+	font-size: 3rem;
+	width: 4rem;
+	text-align: center;
+}
+#pointculture .media span{
+	color: gray;
+	font-size: 3rem;
+	width: 4rem;
+	text-align: center;
+}
+
+.PhotoUne{
+	min-height: 60vh;
+	background-image: url(../img/lune.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.AnnoncePhotoUne{
+	min-height: 60vh;
+	background-color: #d3dae4;
+}
+.AnnoncePhotoUne span{
+	font-size: 4rem;
+	color: #d7b841;
+}
+.AnnoncePhotoUne h5{
+	font-size: 2rem;
+	color:#888;
+}
+footer{
+	background-color: rgba(0,0,0,.8);
+	color:#999;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+}
+footer a{
+	color: #999;
+	font-size:2rem;
+	transition: all .3s ease-in-out;
+}
+footer a:hover{
+	color: #fff;
+	text-decoration: none;
+}
