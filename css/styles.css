@@ -78,11 +78,12 @@ a.irekt{color: gray; font-style: italic; text-decoration: none;}
 a.irekt:hover{background-color: #CDD4D3}
 @media (max-width: 768px) {
 	.PhotoUne{
+		background-image: url(../img/lune_min.png);
 		background-size:100%;
 		min-height: 40vh;
 	}
 	.AnnoncePhotoUne{
-	min-height: 40vh;
-	background-color: #d3dae4;
+		min-height: 40vh;
+		background-color: #d3dae4;
 }
 }
