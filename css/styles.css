@@ -94,3 +94,38 @@ a.irekt:hover{background-color: #CDD4D3}
 		background-color: #d3dae4;
 }
 }
+div.titre{
+	margin-top: 70px;
+	color: #E8240C;
+	background-color: #E4AD29;
+	min-height: 12vh
+}
+div.aligne a{
+	display: flex;
+	align-items: flex-start;
+	color: white;
+	text-decoration-line: none;
+}
+div.aligne a:hover{
+	color: #9D9685;
+}
+div.titre h1{
+	text-align: center;
+}
+div.fond{
+	min-height: 60vh;
+	background-image: url(../img/univers.png);
+	margin-right: 0px;
+	background-size: 13%;
+	background-repeat: repeat;
+
+}
+div.produit{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: white;
+}
+@media (max-width: 768px) {
+	div.produit{
+	margin-left: 38px;
+}
